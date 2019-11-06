@@ -16,6 +16,9 @@ library(grid)
 library(reshape2)
 library(dplyr)
 
+#AF need to set the current pwd
+
+setwd("~/R Code")
 source("Functions/Get_Data.R")
 
 # Load data --------------------------------------------------------------------
