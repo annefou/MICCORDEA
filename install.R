@@ -1,0 +1,12 @@
+install.packages(c("ggplot2",
+                   "raster",
+                   "grid",
+                   "scales",
+                   "extrafont",
+                   "wesanderson",
+                   "ggthemes",
+                   "plotKML",
+                   "R.utils",
+                   "dplyr",
+                   "reshape2"),
+                 dep = TRUE)
