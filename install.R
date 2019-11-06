@@ -9,5 +9,6 @@ install.packages(c("ggplot2",
                    "R.utils",
                    "dplyr",
                    "reshape2",
-                    "RODBC"),
+                    "RODBC",
+                    "remotes"),
                  dep = TRUE)
