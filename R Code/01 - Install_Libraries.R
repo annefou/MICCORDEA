@@ -9,18 +9,24 @@
 # Licence:      : GPL2;
 ################################################################################
 
-install.packages(c("ggplot2",
-                   "raster",
-                   "grid",
-                   "scales",
-                   "extrafont",
-                   "wesanderson",
-                   "ggthemes",
-                   "plotKML",
-                   "R.utils",
-                   "dplyr",
-                   "reshape2"),
-                 dep = TRUE)
+# Moved to install.R
+#install.packages(c("ggplot2",
+#                   "raster",
+#                   "grid",
+#                   "scales",
+#                   "extrafont",
+#                   "wesanderson",
+#                   "ggthemes",
+#                   "plotKML",
+#                   "R.utils",
+#                   "dplyr",
+#                   "reshape2"),
+#                 dep = TRUE)
+
+# need to install model https://rdrr.io/github/adamhsparks/epiRice/
+
+library(renotes)
+remotes::install_github("adamhsparks/epiRice")
 
 library(extrafont)
 font_import()
