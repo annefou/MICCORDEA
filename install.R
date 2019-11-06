@@ -8,5 +8,6 @@ install.packages(c("ggplot2",
                    "plotKML",
                    "R.utils",
                    "dplyr",
-                   "reshape2"),
+                   "reshape2",
+                    "RODBC"),
                  dep = TRUE)
