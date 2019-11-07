@@ -25,7 +25,7 @@
 
 # need to install model https://rdrr.io/github/adamhsparks/epiRice/
 
-library(renotes)
+library(remotes)
 remotes::install_github("adamhsparks/epiRice")
 
 library(extrafont)
